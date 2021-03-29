@@ -33,7 +33,7 @@ main =
       [ h1 [] [ text "42 Digits of the Fibonacci Sequence" ]
       , h2 []
         [ text "("
-        , a [ href "#" ] [ text "in Elm" ]
+        , a [ href "https://github.com/sevensidedmarble/fibonacci-elm" ] [ text "in Elm" ]
         , text ")"
         ]
       ]
