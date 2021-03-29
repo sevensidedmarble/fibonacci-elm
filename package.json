@@ -1,0 +1,17 @@
+{
+  "name": "fib-elm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx elm-live src/Main.elm --open -- --output=main.js",
+    "build": "npx elm make src/Main.elm --optimize --output=main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.19.1-5",
+    "elm-live": "^4.0.2"
+  }
+}
